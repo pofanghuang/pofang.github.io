@@ -1,171 +1,298 @@
 <!DOCTYPE html>
 <html>
-<title>Pofang Huang</title>
+<title> POFANG HUANG </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "times new roman", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url();
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("HUA.JPG");
+  background-position: 0 100 !important;
+  
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("STAR.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
 </style>
-<body class="w3-light-grey">
+<body>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <P Align=center><img src="1090729黃柏芳0932691518 (1).jpg" style="width:50%" alt="Avatar"></P>
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h3>黃柏芳</h3>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-user-o fa-fw w3-margin-right w3-large w3-text-teal"></i>應屆畢業生</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>台中市，西屯區</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>a0932691518@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>0932691518</p>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>擅長技能</b></p>
-          <p>文書處理</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%;background-color:steelblue!important;">90%</div>
-          </div>
-          <p>溝通與表達</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%;background-color:steelblue!important;">90%</div>
-          </div>
-          <p>排版與設計</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%;background-color:steelblue!important;">
-              <div class="w3-center w3-text-white">75%</div>
-            </div>
-          </div>
-          <p>PROCREATE 繪畫與設計</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%;background-color:steelblue!important;">75%</div>
-          </div>
-          <p>架設網站</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%;background-color:steelblue!important;">50%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>語言能力</b></p>
-          <p>英文</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%;background-color:steelblue!important;"></div>
-          </div>
-         
-          <p>泰文</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%;background-color:steelblue!important;"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>工作經驗</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>服務生</b></h5>
-
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019/12 - 2020/4</h6>
-          <p>
-            古典玫瑰園<br>
-            
-            1. 用心服務顧客並隨時注意其用餐情形以提供最佳服務<br>
-            2. 聆聽顧客需求並為其挑選最適合的茶品
-            </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>推廣人員          </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019/10~2019/12</h6>
-          <p>遠東集團HAPPY GO_鼎鼎聯合行銷股份有限公司<br>
-            1. 主動向賣場中的顧客推廣HAPPYGO新推出的APP，並協助有意願的顧客下載。<br>
-            2. 透過清晰的口條與表達能力，曾達到當日推廣人數最高。</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>輕食類廚師</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019/7~2019/9</h6>
-          <p>Timberline Lodge <br>1. 快速且正確地出餐：餐廳提供多項餐點且人潮眾多，因此需準確地記下每一種餐點的材料與煮食方式。<br>
-            2. 團隊合作：在用餐時段或是有活動的日子，內場時常爆單，這時便需要快速且準確地按照出餐順序，分配每個人負責的品項。 </p><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>學習經歷</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>清華大學 中國文學系</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016/9~2020/6</h6>
-          <p>現代散文專長<br>
-            語言學專長</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
-
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"></i>HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-bars" aria-hidden="true"></i>
+        EXPERIENCE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
   </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPERIENCES</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
   
-  <!-- End Page Container -->
+  </div>
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
- 
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;top:40%!important">
+    <span class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity"><h1>WELCOME</h1> </span>
+
+  </div>
+  <img src="gg.jpg" class="w3-round w3-image">
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em> </em></p>
+  
+  <div class="w3-row">
+    <h4 style="text-align: center;"><p><b><i class="fa fa-smile-o w3-margin-right w3-center"></i>I am Pofang Huang <span style="font-family: 'Noto Serif TC', serif;">黃柏芳</span></b></p><br></h4>
+
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="KK.jpg" class="w3-round w3-image" alt="Photo of Me" width="300" height="333">
+    </div>
+    <div>
+      <p style=" font-family: 'Noto Serif TC', serif; margin-top:20px;"> 畢業於清華大學中國文學系，大學期間積極參與社團與系上活動並擔任幹部，極具責任感且性格開朗、積極，樂於接觸與學習陌生事務。做事細心有條理，擅長處理與規劃，臨場反應佳。精通中英的口語表達與書寫能力，善於溝通與整合且具執行力。</p>
+      <img src="girl.png" class="w3-round w3-image" alt="Photo of Me" width="220" height="250">
+      <img src="boy.png" class="w3-round w3-image" alt="Photo of Me" width="195" height="250">
+    </div>
+    
+    <!-- Hide this text on small devices -->
+   
+  </div>
+  <div style=" font-family: 'Noto Serif TC', serif;;">
+  <p class="w3-large w3-center w3-padding-16"><h2 style="text-align: center; font-family: 'Noto Serif TC', serif;">SKILLS</p></h2>
+  <p class="w3-wide"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></i>文書處理</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-users" aria-hidden="true"></i>跨部門溝通與整合</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop" aria-hidden="true"></i>提案與簡報技巧</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-paint-brush" aria-hidden="true"></i>PROCREATE 繪畫與設計</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-language" aria-hidden="true"></i>英語聽說讀寫</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+    </div>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">EXPERIENCES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio" style=" font-family: 'Noto Serif TC', serif;;">
+  <h3 class="w3-center w3-padding-large w3-dark-grey">LEARNING EXPERIENCES</h3>
+  <p class="w3-center"><em> </em></p><br>
+  <div >
+    <p style="text-align: center;"><span style="font-weight: bold; font-size: 20px;">國立清華大學 中國文學系</span> 2016/09~2020/06 </p>
+    <ul style="margin-left: 40%;">
+      <li>現代散文專長</li>
+      <li>語言學專長</li>
+    </ul>
+    <p style="text-align: center;">國立清華大學 藝術學程 2016/09~2020/06 <br></p>
+    <ul style="margin-left: 40%;">
+      <li>現代美學培養</li>
+      <li>創意思維</li>
+    </ul>
+    <p style="text-align: center;">國立清華大學 全球行銷企劃人才養成班 2020/10~2021/01 <br></p>
+    <ul style="margin-left: 40%;">
+      <li>消費者心理學</li>
+      <li>電商實務與經營管理</li>
+      <li>社群經營</li>
+      <li>電商實務</li>
+    </ul>
+    
+    
+  </div>
+
+  
+
+</div>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio" style=" font-family: 'Noto Serif TC', serif;;">
+    <h3 class="w3-center w3-padding-large w3-dark-grey">WORKING EXPERIENCES</h3>
+    <p class="w3-center"><em> </em></p><br>
+    <div >
+      <p style="text-align: center;"> <span style="font-weight: bold; font-size: 20px;">服務生與銷售人員</span> <br> 古典玫瑰園<br>
+        <ul style="margin-left: 30%;">
+       <li>用心服務顧客並隨時注意其用餐情形以提供最佳服務</li> <br>
+       <li> 聆聽顧客需求並為其挑選最適合的茶品</li>
+      </ul>
+      </p>
+      <p style="text-align: center;"> <span style="font-weight: bold; font-size: 20px;">推廣人員</span> <br> 遠東集團HAPPY GO_鼎鼎聯合行銷股份有限公司 <br></p>
+      <ul style="margin-left: 30%;">
+        <li>主動向賣場中的顧客推廣HAPPYGO新推出的APP，並協助有意願的顧客下載</li>
+        <li>透過清晰的口條與表達能力，曾達到當日推廣人數最高</li>
+      </ul>
+      <p style="text-align: center;"><span style="font-weight: bold; font-size: 20px;">Cook</span> <br> Timberline Lodge/Oregon,US  <br></p>
+      <ul style="margin-left: 30%;">
+        <li>快速且正確地出餐：餐廳提供多項餐點且人潮眾多，因此需準確地記下每一種餐點的材料與煮食方式</li>
+        <li>團隊合作：在用餐時段或是有活動的日子，內場時常爆單，這時便需要快速且準確地按照出餐順序，分配每個人負責的品項</li>
+      </ul>
+      
+      
+    </div>
+  
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  </div>
+  <div class="w3-content w3-container w3-padding-64" id="portfolio" style=" font-family: 'Noto Serif TC', serif;;">
+    <h3 class="w3-center w3-padding-large w3-dark-grey">INTERN EXPERIENCES</h3>
+    <p class="w3-center"><em> </em></p><br>
+    <div >
+      <p style="text-align: center;"> <span style="font-weight: bold; font-size: 20px;">線上華語實習教師</span> <br> 捷克馬薩里克大學 </p>
+      <ul style="margin-left: 40%;">
+        <li>協助十三位學生訂立並達成學習目標</li>
+        <li>設計課程與教學目標並檢視成效</li>
+      </ul>
+     
+      
+      
+    </div>
+  
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  </div>
+  
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center ">HOW TO CONTACT ME</h3>
+  <p class="w3-center"><em></em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="opera.jpeg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel;">
+      <div class="w3-large w3-margin-bottom ">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right "></i> <span style="font-family: 'Noto Serif TC', serif;">台中市 西屯區</span><br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 0932691518<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 0932691518@gmail.com<br>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
 </footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 
 </body>
 </html>
-
